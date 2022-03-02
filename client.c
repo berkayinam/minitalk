@@ -6,7 +6,7 @@
 /*   By: binam <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/27 05:56:55 by binam             #+#    #+#             */
-/*   Updated: 2022/03/02 18:42:58 by binam            ###   ########.fr       */
+/*   Updated: 2022/03/02 18:56:39 by binam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	sig_fback(int signum, siginfo_t *siginfo, void *unused)
 	(void)unused;
 	(void)siginfo;
 	(void)signum;
-	write(1, "Sinyal Feedback Alındı\n", 25);
+	write(1, "Signal Delivered\n", 17);
 }
 
 int	main(int argc, char **argv)
